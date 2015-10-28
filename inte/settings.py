@@ -114,6 +114,10 @@ LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'locale'),
 )
 
+ROSETTA_MESSAGES_SOURCE_LANGUAGE_CODE = 'es'
+ROSETTA_MESSAGES_SOURCE_LANGUAGE_NAME = 'Espa&ntilde;ol'
+ROSETTA_ENABLE_TRANSLATION_SUGGESTIONS = True
+ROSETTA_GOOGLE_TRANSLATE = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
